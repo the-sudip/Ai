@@ -8,17 +8,17 @@ A well-structured prompt is the foundation of reliable LLM behavior. Understandi
 
 ```
 ┌─────────────────────────────────────────┐
-│  1. SYSTEM PROMPT                        │
-│     Role, persona, rules, constraints    │
+│  1. SYSTEM PROMPT                       │
+│     Role, persona, rules, constraints   │
 ├─────────────────────────────────────────┤
-│  2. FEW-SHOT EXAMPLES (optional)         │
-│     Demonstrations of expected I/O       │
+│  2. FEW-SHOT EXAMPLES (optional)        │
+│     Demonstrations of expected I/O      │
 ├─────────────────────────────────────────┤
-│  3. CONTEXT                              │
-│     Retrieved docs, user data, history   │
+│  3. CONTEXT                             │
+│     Retrieved docs, user data, history  │
 ├─────────────────────────────────────────┤
-│  4. USER QUERY                           │
-│     The actual question / instruction    │
+│  4. USER QUERY                          │
+│     The actual question / instruction   │
 └─────────────────────────────────────────┘
 ```
 
