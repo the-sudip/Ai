@@ -149,6 +149,7 @@ Classify sentiment:
 **Q12. What is Chain-of-Thought (CoT) prompting?**
 
 **A:** CoT prompting adds "Let's think step by step" or provides intermediate reasoning steps. It dramatically improves performance on math, logic, and multi-step tasks.
+CoT (Chain of Thought) is a prompting technique where a model is encouraged to reason through a problem step by step before giving the final answer.
 
 ```python
 prompt = """
