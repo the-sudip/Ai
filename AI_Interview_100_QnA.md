@@ -1205,6 +1205,10 @@ trimmed = trim_messages(
 **Q78. What is a StateGraph in LangGraph?**
 
 **A:** `StateGraph` is the main graph class. You define the state schema, add nodes and edges, then compile it into a runnable graph.
+<br>
+StateGraph is the core workflow abstraction in LangGraph that organizes an application as a graph of nodes connected by edges, where each node reads from and updates a shared state.
+<br>
+StateGraph = A flowchart of steps that all share the same data (state).
 
 ```python
 from langgraph.graph import StateGraph, START, END
