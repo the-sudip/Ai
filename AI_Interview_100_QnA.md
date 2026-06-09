@@ -149,6 +149,7 @@ Classify sentiment:
 **Q12. What is Chain-of-Thought (CoT) prompting?**
 
 **A:** CoT prompting adds "Let's think step by step" or provides intermediate reasoning steps. It dramatically improves performance on math, logic, and multi-step tasks.
+CoT (Chain of Thought) is a prompting technique where a model is encouraged to reason through a problem step by step before giving the final answer.
 
 ```python
 prompt = """
@@ -533,6 +534,9 @@ os.environ["LANGCHAIN_PROJECT"] = "my_project"
 **A:**
 - **VectorStore**: A database that stores and indexes vectors. Has methods like `add_texts`, `similarity_search`.
 - **Retriever**: A Runnable interface wrapper around any search mechanism. Takes a query string, returns a list of Documents. VectorStores can be converted to Retrievers, but Retrievers can also wrap BM25, hybrid search, etc.
+<br>
+VectorStore = where embeddings/documents are stored and searched
+Retriever = an interface that fetches relevant documents for a query
 
 ```python
 retriever = vs.as_retriever()       # VectorStore → Retriever
