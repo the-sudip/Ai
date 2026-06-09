@@ -1206,7 +1206,9 @@ trimmed = trim_messages(
 
 **A:** `StateGraph` is the main graph class. You define the state schema, add nodes and edges, then compile it into a runnable graph.
 <br>
+<br>
 StateGraph is the core workflow abstraction in LangGraph that organizes an application as a graph of nodes connected by edges, where each node reads from and updates a shared state.
+<br>
 <br>
 StateGraph = A flowchart of steps that all share the same data (state).
 
